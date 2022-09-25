@@ -1,0 +1,14 @@
+C:\Users\Aspire\Documents\bugtracker\BLL\bin\Debug\BLL.dll
+C:\Users\Aspire\Documents\bugtracker\BLL\bin\Debug\BLL.pdb
+C:\Users\Aspire\Documents\bugtracker\BLL\bin\Debug\DAL.dll
+C:\Users\Aspire\Documents\bugtracker\BLL\bin\Debug\DAL.pdb
+C:\Users\Aspire\Documents\bugtracker\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Aspire\Documents\bugtracker\BLL\obj\Debug\BLL.dll
+C:\Users\Aspire\Documents\bugtracker\BLL\obj\Debug\BLL.pdb
+C:\Users\Aspire\Desktop\bugtracker\BLL\bin\Debug\BLL.dll
+C:\Users\Aspire\Desktop\bugtracker\BLL\bin\Debug\BLL.pdb
+C:\Users\Aspire\Desktop\bugtracker\BLL\bin\Debug\DAL.dll
+C:\Users\Aspire\Desktop\bugtracker\BLL\bin\Debug\DAL.pdb
+C:\Users\Aspire\Desktop\bugtracker\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Aspire\Desktop\bugtracker\BLL\obj\Debug\BLL.dll
+C:\Users\Aspire\Desktop\bugtracker\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B7AC1EE-1EEE-4905-8D04-37BC1EAD626C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bugtracker</RootNamespace>
+    <AssemblyName>bugtracker</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.TextEditor">
+      <HintPath>..\..\..\Desktop\ICSharpCode.TextEditor\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addbug.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addbug.Designer.cs">
+      <DependentUpon>addbug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addfile.Designer.cs">
+      <DependentUpon>addfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addresult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addresult.Designer.cs">
+      <DependentUpon>addresult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admindashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admindashboard.Designer.cs">
+      <DependentUpon>admindashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dataview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dataview.Designer.cs">
+      <DependentUpon>dataview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="search.Designer.cs">
+      <DependentUpon>search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testerdashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testerdashboard.Designer.cs">
+      <DependentUpon>testerdashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="developerdashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="developerdashboard.Designer.cs">
+      <DependentUpon>developerdashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="update.Designer.cs">
+      <DependentUpon>update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userupdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userupdate.Designer.cs">
+      <DependentUpon>userupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userview.Designer.cs">
+      <DependentUpon>userview.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addbug.resx">
+      <DependentUpon>addbug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addfile.resx">
+      <DependentUpon>addfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addresult.resx">
+      <DependentUpon>addresult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admindashboard.resx">
+      <DependentUpon>admindashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataview.resx">
+      <DependentUpon>dataview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testerdashboard.resx">
+      <DependentUpon>testerdashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="developerdashboard.resx">
+      <DependentUpon>developerdashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update.resx">
+      <DependentUpon>update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userupdate.resx">
+      <DependentUpon>userupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userview.resx">
+      <DependentUpon>userview.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{36d13905-404f-4ece-a0dd-a409cb85e3bf}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{66c5cbf4-ef2f-46b0-9aa8-cb25b0405497}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_bug-1000x998.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_bug-1000x9981.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugg.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

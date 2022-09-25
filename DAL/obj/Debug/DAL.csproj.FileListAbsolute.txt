@@ -1,0 +1,10 @@
+C:\Users\Aspire\Documents\bugtracker\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Aspire\Documents\bugtracker\DAL\bin\Debug\DAL.dll
+C:\Users\Aspire\Documents\bugtracker\DAL\bin\Debug\DAL.pdb
+C:\Users\Aspire\Documents\bugtracker\DAL\obj\Debug\DAL.dll
+C:\Users\Aspire\Documents\bugtracker\DAL\obj\Debug\DAL.pdb
+C:\Users\Aspire\Desktop\bugtracker\DAL\bin\Debug\DAL.dll
+C:\Users\Aspire\Desktop\bugtracker\DAL\bin\Debug\DAL.pdb
+C:\Users\Aspire\Desktop\bugtracker\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Aspire\Desktop\bugtracker\DAL\obj\Debug\DAL.dll
+C:\Users\Aspire\Desktop\bugtracker\DAL\obj\Debug\DAL.pdb
